@@ -13,6 +13,9 @@
 		C4C82809267F6889001B8262 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4C82807267F6889001B8262 /* Main.storyboard */; };
 		C4C8280B267F6889001B8262 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4C8280A267F6889001B8262 /* Assets.xcassets */; };
 		C4C8280E267F6889001B8262 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4C8280C267F6889001B8262 /* LaunchScreen.storyboard */; };
+		C4C82821267F7663001B8262 /* third.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C4C8281E267F7663001B8262 /* third.mp4 */; };
+		C4C82822267F7663001B8262 /* first.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C4C8281F267F7663001B8262 /* first.mp4 */; };
+		C4C82823267F7663001B8262 /* second.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C4C82820267F7663001B8262 /* second.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		C4C8280A267F6889001B8262 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4C8280D267F6889001B8262 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4C8280F267F6889001B8262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4C8281E267F7663001B8262 /* third.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = third.mp4; sourceTree = "<group>"; };
+		C4C8281F267F7663001B8262 /* first.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = first.mp4; sourceTree = "<group>"; };
+		C4C82820267F7663001B8262 /* second.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = second.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		C4C82800267F6889001B8262 /* video-transitions */ = {
 			isa = PBXGroup;
 			children = (
+				C4C82815267F6985001B8262 /* Resources */,
 				C4C82801267F6889001B8262 /* AppDelegate.swift */,
 				C4C82803267F6889001B8262 /* SceneDelegate.swift */,
 				C4C82805267F6889001B8262 /* ViewController.swift */,
@@ -65,6 +72,16 @@
 				C4C8280F267F6889001B8262 /* Info.plist */,
 			);
 			path = "video-transitions";
+			sourceTree = "<group>";
+		};
+		C4C82815267F6985001B8262 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C4C8281F267F7663001B8262 /* first.mp4 */,
+				C4C82820267F7663001B8262 /* second.mp4 */,
+				C4C8281E267F7663001B8262 /* third.mp4 */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +143,10 @@
 			files = (
 				C4C8280E267F6889001B8262 /* LaunchScreen.storyboard in Resources */,
 				C4C8280B267F6889001B8262 /* Assets.xcassets in Resources */,
+				C4C82822267F7663001B8262 /* first.mp4 in Resources */,
 				C4C82809267F6889001B8262 /* Main.storyboard in Resources */,
+				C4C82821267F7663001B8262 /* third.mp4 in Resources */,
+				C4C82823267F7663001B8262 /* second.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
